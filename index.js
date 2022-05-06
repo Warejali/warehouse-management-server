@@ -38,7 +38,7 @@ async function run(){
             res.send(result);
         })
 
-        // API for my items
+        // API for My items
         app.get('/items', async(req, res)=>{
             const email = req.query.email;
             const query = {email: email};
